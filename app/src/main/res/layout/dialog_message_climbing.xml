@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/launcher_climbing_bg"
+        android:minWidth="461.3dp">
+
+        <ImageView
+            android:id="@+id/message_climbing_icon_iv"
+            android:layout_width="102dp"
+            android:layout_height="108dp"
+            android:layout_marginLeft="6.7dp"
+            android:layout_marginTop="24dp"
+            android:src="@mipmap/launcher_climbing_icon_iv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/message_climbing_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9.3dp"
+            android:text="@string/climbing_activity"
+            android:textColor="#3d911e"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/message_climbing_introduce_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.7dp"
+            android:layout_marginTop="6dp"
+            android:src="@mipmap/launcher_climbing_introduce_iv"
+            app:layout_constraintLeft_toRightOf="@+id/message_climbing_icon_iv"
+            app:layout_constraintTop_toBottomOf="@+id/message_climbing_title_tv" />
+
+
+        <ImageView
+            android:id="@+id/message_climbing_introduce_tip_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.7dp"
+            android:src="@mipmap/launcher_climbing_introduce_tip_iv"
+            app:layout_constraintBottom_toBottomOf="@+id/message_climbing_introduce_iv"
+            app:layout_constraintLeft_toRightOf="@+id/message_climbing_introduce_iv"
+            app:layout_constraintTop_toTopOf="@+id/message_climbing_introduce_iv" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="19.3dp"
+            android:text="@string/description_activity"
+            android:textColor="#693a16"
+            android:textSize="22.5sp"
+            app:layout_constraintLeft_toRightOf="@+id/message_climbing_introduce_tip_iv"
+            app:layout_constraintTop_toTopOf="@+id/message_climbing_introduce_tip_iv" />
+
+        <ImageView
+            android:id="@+id/message_climbing_time_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.7dp"
+            android:src="@mipmap/launcher_climbing_time_iv"
+            app:layout_constraintBottom_toBottomOf="@+id/message_climbing_icon_iv"
+            app:layout_constraintLeft_toRightOf="@+id/message_climbing_icon_iv" />
+
+        <ImageView
+            android:id="@+id/message_climbing_time_tip_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.7dp"
+            android:src="@mipmap/launcher_climbing_time_tip_iv"
+            app:layout_constraintBottom_toBottomOf="@+id/message_climbing_time_iv"
+            app:layout_constraintLeft_toRightOf="@+id/message_climbing_time_iv"
+            app:layout_constraintTop_toTopOf="@+id/message_climbing_time_iv" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.3dp"
+android:text="@string/start_time"
+            android:textColor="#693a16"
+            android:textSize="16.7sp"
+            app:layout_constraintBottom_toBottomOf="@+id/message_climbing_time_tip_iv"
+            app:layout_constraintLeft_toRightOf="@+id/message_climbing_time_tip_iv" />
+
+        <TextView
+            android:id="@+id/message_climbing_integral_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.7dp"
+            android:text="@string/reward_points"
+            android:textColor="#ea8a43"
+            android:textSize="26.1sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/message_climbing_time_iv" />
+
+
+        <ImageView
+            android:id="@+id/message_climbing_go_iv"
+            android:layout_width="wrap_content"
+            app:layout_constraintRight_toLeftOf="@+id/message_climbing_refuse_iv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="12.7dp"
+            android:src="@mipmap/launcher_climbing_go_iv"
+            app:layout_constraintTop_toBottomOf="@+id/message_climbing_integral_tv"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/message_climbing_refuse_iv"
+            android:layout_width="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/message_climbing_go_iv"
+            app:layout_constraintLeft_toRightOf="@+id/message_climbing_go_iv"
+            android:src="@mipmap/launcher_climbing_refuse_iv"
+            android:layout_height="wrap_content" />
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@mipmap/launcher_climbing_close_iv" />
+</FrameLayout>

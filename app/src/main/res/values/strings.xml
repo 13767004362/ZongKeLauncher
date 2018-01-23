@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hapilo桌面</string>
+    <string name="scode_tip">扫码激活设备</string>
+    <string name="grade_tip">LV.1</string>
+    <string name="climbing_activity">爬山活动</string>
+    <string name="reward_points">积分奖励+1000</string>
+    <string name="start_time">开始时间10:10（历时1小时）</string>
+    <string name="description_activity">描述活动描述活动\n描述活动描述活动</string>
+    <string name="getRewards">恭喜你获取奖励</string>
+    <string name="clickLook">点击查看</string>
+    <string name="acount_name">萌萌的账号</string>
+    <string name="activity_title">活动标题活动标题</string>
+    <string name="activity_rewards">奖励 1000积分 </string>
+    <string name="activity_description">活动描述 </string>
+    <string name="cost_money">时间：10:10(历时1小时)</string>
+    <string name="go">前往</string>
+    <string name="go_mesage">新消息来袭</string>
+</resources>

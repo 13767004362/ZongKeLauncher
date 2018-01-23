@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3.2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="3.2dp"
+    android:background="@mipmap/launcher_home_item_bg2"
+    android:paddingBottom="3.5dp"
+    android:paddingLeft="3.3dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2.5dp">
+
+    <ImageView
+        android:id="@+id/item_ranking_iv"
+        android:layout_width="26dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/item_ranking_icon_iv"
+        android:layout_width="53.3dp"
+        android:layout_height="50.7dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/launcher_home_ranking_default_icon" />
+
+</RelativeLayout>

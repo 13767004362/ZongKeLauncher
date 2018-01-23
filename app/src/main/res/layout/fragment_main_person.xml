@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/main_person_msg_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.7dp"
+        android:layout_marginTop="8.7dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/main_white_yellow_bg2_shape"
+            android:orientation="vertical"
+            android:paddingBottom="6.7dp"
+            android:paddingLeft="53.3dp"
+            android:paddingRight="32.7dp"
+            android:paddingTop="6.7dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/acount_name"
+                android:textColor="#ff6840"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/imageview1_style_main"
+
+                    android:src="@mipmap/main_medal" />
+
+                <ImageView
+                    style="@style/imageview1_style_main"
+                    android:layout_marginLeft="6.7dp"
+                    android:src="@mipmap/main_medal" />
+
+                <ImageView
+                    style="@style/imageview1_style_main"
+
+                    android:layout_marginLeft="6.7dp"
+                    android:src="@mipmap/main_medal" />
+
+                <ImageView
+                    style="@style/imageview1_style_main"
+
+                    android:layout_marginLeft="6.7dp"
+                    android:src="@mipmap/main_medal" />
+
+                <ImageView
+                    style="@style/imageview1_style_main"
+
+                    android:layout_marginLeft="6.7dp"
+                    android:src="@mipmap/main_medal" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/main_default_person_single" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_person_msg_layout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/main_white_bg1_shape"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <ImageView
+            style="@style/imageview1_style_main"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/main_chest" />
+
+        <ImageView
+            style="@style/imageview1_style_main"
+            android:layout_marginTop="15dp"
+            android:src="@mipmap/main_achievement" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            style="@style/imageview1_style_main"
+            android:layout_marginTop="14.5dp"
+            android:src="@mipmap/main_desire1" />
+
+        <ImageView
+            style="@style/imageview1_style_main"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8.6dp"
+            android:src="@mipmap/main_desire2" />
+
+        <ImageView
+            style="@style/imageview1_style_main"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="32dp"
+            android:src="@mipmap/main_desire3" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/main_person_msg_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/main_person_ranking_list_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/main_white_bg1_shape"
+            android:orientation="vertical"
+            android:paddingBottom="18dp"
+            android:paddingLeft="1.3dp"
+            android:layout_marginRight="5.3dp"
+            android:paddingRight="5.3dp"
+            android:paddingTop="66.6dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/main_person_ranking_first_iv"
+                    style="@style/imageview1_style_main"
+                    android:layout_marginTop="2.6dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@mipmap/main_default_person_small" />
+
+                <ImageView
+                    style="@style/imageview2_style_main"
+                    android:src="@mipmap/main_ranking_first" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9.3dp">
+
+                <ImageView
+                    android:id="@+id/main_person_ranking_second_iv"
+                    style="@style/imageview1_style_main"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="2.6dp"
+                    android:src="@mipmap/main_default_person_small" />
+
+                <ImageView
+                    style="@style/imageview2_style_main"
+
+                    android:src="@mipmap/main_ranking_second" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9.3dp">
+
+                <ImageView
+                    android:id="@+id/main_person_ranking_three_iv"
+                    style="@style/imageview1_style_main"
+                    android:layout_marginLeft="12dp"
+
+                    android:layout_marginTop="2.6dp"
+                    android:src="@mipmap/main_default_person_small" />
+                <ImageView
+                    style="@style/imageview2_style_main"
+                    android:src="@mipmap/main_ranking_three" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/main_person_ranking_person_iv"
+                style="@style/imageview1_style_main"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="2.6dp"
+                android:src="@mipmap/main_default_person_large" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="-22.6dp"
+                android:layout_toLeftOf="@+id/main_person_ranking_person_iv"
+                android:background="@mipmap/main_ranking_person"
+                android:gravity="center"
+                android:text="26"
+                android:textColor="#fefefe"
+                android:textSize="26.7sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
